@@ -42,7 +42,7 @@ const submitForm = () => {
 <style scoped>
 .register-form {
   background-color: #d4d4d4;
-  padding: 40px;
+  padding: 50px;
   display: flex;
   flex-direction: column;
   width: 300px;
