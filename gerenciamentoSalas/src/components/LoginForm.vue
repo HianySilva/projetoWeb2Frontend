@@ -30,7 +30,6 @@ function onSubmit() {
 .login-form {
   background-color: #d4d4d4;
   padding: 60px;
-  border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   width: 300px;
   display: flex;
