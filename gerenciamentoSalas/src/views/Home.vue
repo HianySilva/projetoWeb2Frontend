@@ -66,7 +66,7 @@ export default {
 
 .sidebar {
   width: 220px;
-  background-color: #f4f4f4;
+  background-color: #28a745;
   padding: 20px;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
 }
@@ -74,6 +74,7 @@ export default {
 .sidebar h2 {
   margin-top: 0;
   text-align: center;
+  color: white;
 }
 
 .sidebar ul {
@@ -83,21 +84,37 @@ export default {
 
 .sidebar li {
   margin-bottom: 15px;
+  color: white;
 }
 
-.sidebar a,
-.sidebar button {
+
+.sidebar a{
   text-decoration: none;
-  color: #333;
+  color: #fff;
   display: block;
   padding: 12px;
   border-radius: 6px;
+  transition: background-color 0.3s
+}
+
+.sidebar a:hover{
+  background-color:  #50c878;
+}
+
+.sidebar button {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding: 12px;
+  border-radius: 6px;
+  border:none;
+  width: 100%;
+  background-color: #28a745;
   transition: background-color 0.3s;
 }
 
-.sidebar a:hover,
 .sidebar button:hover {
-  background-color: #ddd;
+  background-color:  #50c878;
 }
 
 .main-content {
@@ -106,7 +123,7 @@ export default {
 }
 
 .add-button {
-  background-color: #007bff;
+  background-color: #28a745;
   color: white;
   border: none;
   padding: 12px 24px;
@@ -117,7 +134,7 @@ export default {
 }
 
 .add-button:hover {
-  background-color: #0056b3;
+  background-color: #008000;
 }
 
 .cards-container {
