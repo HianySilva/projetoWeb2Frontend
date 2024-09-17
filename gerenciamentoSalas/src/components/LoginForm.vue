@@ -43,7 +43,7 @@ function onSubmit() {
 
 .label {
   font-size: 0.9rem;
-  color: #333;
+  color: #fff;
   margin-bottom: 5px;
 }
 
@@ -57,7 +57,7 @@ function onSubmit() {
 
 .login-button {
   padding: 10px;
-  background-color: #007bff;
+  background-color:  #28a745;
   color: white;
   border: none;
   border-radius: 4px;
@@ -65,6 +65,6 @@ function onSubmit() {
 }
 
 .login-button:hover {
-  background-color: #0056b3;
+  background-color:  #50c878;
 }
 </style>
