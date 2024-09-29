@@ -41,6 +41,8 @@ const submitForm = () => {
 
 <style scoped>
 .register-form {
+  background-color: #d4d4d4;
+  padding: 50px;
   display: flex;
   flex-direction: column;
   width: 300px;
@@ -64,7 +66,7 @@ input, select {
 
 button {
   padding: 10px;
-  background-color: #007BFF;
+  background-color: #28a745;
   color: white;
   border: none;
   border-radius: 5px;
@@ -72,6 +74,6 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #50c878;
 }
 </style>

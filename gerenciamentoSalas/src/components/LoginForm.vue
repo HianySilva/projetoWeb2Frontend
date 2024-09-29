@@ -28,9 +28,8 @@ function onSubmit() {
 <style scoped>
 /* Estilos específicos para o formulário de login */
 .login-form {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 8px;
+  background-color: #d4d4d4;
+  padding: 60px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   width: 300px;
   display: flex;
